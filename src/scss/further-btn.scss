@@ -1,0 +1,22 @@
+.further-btn {
+    display: inline-block;
+    width: 405px;
+    max-width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #363c4e;
+    font-family: $font-family-decor-2;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    &:hover {
+        color: #363c4e;
+        text-decoration: none;
+    }
+    @include media-breakpoint-down(md) {
+         padding: 20px 0;
+    }
+}

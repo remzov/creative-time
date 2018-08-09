@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: local('HelveticaNeueCyr-Roman'),
+		url('../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: local('HelveticaNeueCyr-Bold'),
+		url('../fonts/HelveticaNeue/HelveticaNeueCyr-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: local('HelveticaNeueCyr-Light'),
+		url('../fonts/HelveticaNeue/HelveticaNeueCyr-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+	src: local('SourceSansPro-Bold'),
+		url('../fonts/SourceSansPro/SourceSansPro-Bold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaLTStd';
+	src: local('Helveticaltstd-Boldcond.woff'),
+		url('../fonts/HelveticaLTStd/HelveticaLTStd-Boldcond.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FreightTextBook';
+	src: local('Freight Text Book Italic.otf'),
+		url('../fonts/FreightTextBook/Freight Text Book Italic.otf') format('otf');
+	font-weight: 400;
+	font-style: italic;
+}

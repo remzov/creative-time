@@ -1,0 +1,35 @@
+.footer-section {
+    margin-bottom: 60px;
+}
+
+.footer-section__title {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.footer-section__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #b5b1b1;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1;
+    li {
+        margin-bottom: 25px;
+        white-space: nowrap;
+    }
+    a {
+        color: #b5b1b1;
+        &:hover {
+            color: #b5b1b1;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: 22px; 
+    }
+}

@@ -1,0 +1,33 @@
+$font-family-base: 'HelveticaNeueCyr', sans-serif;
+$font-family-decor-1: 'HelveticaLTStd', sans-serif;
+$font-family-decor-2: 'SourceSansPro', sans-serif;
+$font-family-decor-3: 'FreightTextBook', sans;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1790px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1600px
+);
+
+$grid-gutter-width: 60px;
+
+$badge-font-weight: 700;
+$badge-font-size: 18px;
+$badge-padding-y: 10px;
+$badge-padding-x: 16px;
+
+.badge {
+	margin: 0 27px;
+	background-color: #fff200;
+	color: #000000;
+	line-height: 1;
+}

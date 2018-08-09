@@ -1,0 +1,41 @@
+.project {
+    padding: 100px 0 55px;
+    background-image: linear-gradient(-135deg, #07cacf 0%, #1f99b1 100%);
+    position: relative;
+    z-index: 1;
+}
+
+.project__text {
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.project__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include media-breakpoint-down(lg) {
+        flex-direction: column;
+    }
+}
+
+.project__title {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1;
+    @include media-breakpoint-down(md) {
+        font-size: 35px;
+    }
+}
+
+.project__subtitle {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1;
+    @include media-breakpoint-down(md) {
+        font-size: 25px;
+    }
+}

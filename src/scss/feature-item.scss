@@ -1,0 +1,30 @@
+.feature-item {
+    text-align: center;
+}
+
+.feature-item__image {
+    max-width: 100%;
+    margin-bottom: 70px;
+    @include media-breakpoint-down(md) {
+        max-width: 50%;
+        margin-bottom: 35px;
+    }
+}
+
+.feature-item__title {
+    margin-bottom: 30px;
+    color: #393c44;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.feature-item__text {
+    color: #393c44;
+    font-size: 22px;
+    a {
+        font-style: italic;
+        color: #d82028;
+        font-weight: 300;
+    }
+}

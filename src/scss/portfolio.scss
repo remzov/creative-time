@@ -1,0 +1,10 @@
+.portfolio__title {
+    text-align: center;
+    color: #1378cc;
+    font-size: 69px;
+    font-weight: 400;
+    @include media-breakpoint-down(md) {
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+}

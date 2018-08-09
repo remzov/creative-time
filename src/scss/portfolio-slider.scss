@@ -1,0 +1,94 @@
+.portfolio-slider {
+    box-sizing: border-box;
+    padding-bottom: 52%;
+    position: relative;
+    top: 126px;
+    @include media-breakpoint-down(lg) {
+        top: 0;
+    }
+}
+
+.portfolio-slider__laptop {
+    width: 88%;
+    box-sizing: border-box;
+    padding-top: 51%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('../img/laptop.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.portfolio-slider__laptop-slide { 
+    position: absolute;
+    top: 9%;
+    left: 17.5%;
+    width: 65.3%;
+}
+
+.portfolio-slider__phone {
+    width: 19%;
+    box-sizing: border-box;
+    padding-top: 37%;
+    position: absolute;
+    top: 26%;
+    left: 71.2%;
+    background: url('../img/phone.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.portfolio-slider__phone-slide {
+    position: absolute;
+    top: 14.5%;
+    left: 11.4%;
+    width: 77%;
+}
+
+.portfolio-slider__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.portfolio-slider__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.portfolio-slider__control {
+    width: 89px;
+    height: 89px;
+    border: 3px solid #29343f;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    @include media-breakpoint-down(md) {
+        width: 30px;
+        height: 30px;
+        svg {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+.portfolio-slider__control.portfolio-slider__prev {
+    svg {
+        transform: rotate(60deg);
+    }
+    @include media-breakpoint-down(md) {
+        left: -10x !important;
+    }
+}
+
+.portfolio-slider__control.portfolio-slider__next {
+    @include media-breakpoint-down(md) {
+        right: 10x !important;
+    }
+}
